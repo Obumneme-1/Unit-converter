@@ -1,0 +1,71 @@
+body { 
+    background: grey;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+#sectionOne {
+    background: rgb(87, 14, 138);
+    display: flex;
+    height: 220px;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+#input-field {
+    width: 120px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+
+
+h3 {
+    color: rgb(35, 7, 55);
+    width: 600px;
+    background: rgb(247, 243, 243);
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    height:85px;
+    border-radius: 20px;
+    padding-top:10px;
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#increment-btn, #decrement-btn {
+    width: 40px;
+    height:45%;
+    margin-top: 1px;
+    margin-left: 4px
+}
+
+#input-btn-and-box {
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+}
